@@ -1,0 +1,11 @@
+<label for="addTaskInput"></label>
+
+<input
+  #newItem
+  placeholder="Ajouter une tâche"
+  (keyup.enter)="addTask(newItem.value); newItem.value = ''"
+  class="lg-text-input"
+  id="addItemInput"
+/>
+
+<button class="btn-primary" (click)="addTask(newItem.value)">Ajouter</button>

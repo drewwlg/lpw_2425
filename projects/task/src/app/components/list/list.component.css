@@ -1,0 +1,25 @@
+.btnsupp {
+  background-color: red;
+  color: white;
+  border: none;
+  float: right;
+}
+
+.todocheckbox {
+  margin-right: 10px;
+  font-weight: bold;
+  float: right;
+}
+
+.taskname {
+  font-size: 1.2rem;
+  text-justify: auto;
+}
+
+/*ul {
+  padding-inline-start: 0;
+}
+
+ul li {
+  list-style: none;
+}*/

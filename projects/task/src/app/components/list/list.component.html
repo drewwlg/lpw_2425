@@ -1,0 +1,12 @@
+<ul>
+  @for(allTask of allTasks ; track allTask.description){
+
+  <li>
+    <span class="taskname">{{ allTask.description }}</span>
+    <input type="checkbox" class="todocheckbox" />
+    <button class="btnsupp" (click)="removeItem(allTask)">Supprimer</button>
+  </li>
+  <br />
+
+  }
+</ul>
